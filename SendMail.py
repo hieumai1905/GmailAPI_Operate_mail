@@ -36,7 +36,7 @@ def send_message(service, user_id, message, send_to):
 
 
 if __name__ == '__main__':
-    to = 'hieumai1905it@gmail.com'
+    to = 'email address'
     subject = 'Test Email using Gmail API'
     body = 'This is content of mail.'
     send_email_via_gmail(to, subject, body)
